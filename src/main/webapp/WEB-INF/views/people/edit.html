@@ -18,7 +18,7 @@
     <input type="text" th:field="*{email}" id="email">
     <div style="color: red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email error</div>
     <br/>
-    <p>Pattern for address:      <div style="color: #0bb605"> Country, City, post index (6 digits)</div></p>
+    <p>Pattern for address:     </p> <div style="color: #0bb605"> Country, City, post index (6 digits)</div>
     <label for="address">Enter address</label>
     <input type="text" th:field="*{address}" id="address">
     <div style="color: red" th:if="${#fields.hasErrors('address')}" th:errors="*{address}">Address error</div>
